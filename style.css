@@ -1,0 +1,115 @@
+/* 1. Navigation Bar */
+nav ul {
+    list-style-type: none;  /* bullets hatao */
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;  /* horizontal karne ka ek tareeka */
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;  /* hover effect */
+}
+
+/* 2. Hero Section */
+#home {
+    text-align: center;  /* center align */
+    padding: 50px 20px;  /* up-down 50px, left-right 20px */
+    background-color: #f4f4f4;  /* light grey background */
+}
+
+#home h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+/* 3. Projects Section */
+#projects {
+    padding: 20px;
+}
+
+.project-card {
+    border: 1px solid #ddd;  /* border */
+    border-radius: 8px;  /* rounded corners */
+    padding: 16px;  /* andar ki space */
+    margin-bottom: 20px;  /* cards ke beech space */
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);  /* light shadow */
+}
+
+/* HTML mein <article> ko class do: <article class="project-card"> */
+
+/* 4. Contact Form */
+#contact {
+    background-color: #f9f9f9;
+    padding: 30px;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;  /* center karna */
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;  /* label upar aayega */
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;  /* full width */
+    padding: 10px;  /* andar space */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;  /* important - padding width mein shamil nahi hogi */
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* 5. Footer */
+footer {
+    background-color: #333;  /* dark background */
+    color: white;  /* light text */
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
